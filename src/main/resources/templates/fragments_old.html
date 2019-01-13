@@ -8,8 +8,7 @@
     <link th:href="@{/css/techjobs.css}" rel="stylesheet" />
     <script type="text/javascript" th:src="@{/js/bootstrap.js}"></script>
 
-    <!--<title th:text="'TechJobs' + ${title == null ? '' : ' :: ' + title}">TechJobs</title>-->
-    <title>TechJobs</title>
+    <title th:text="'TechJobs' + ${title == null ? '' : ' :: ' + title}">TechJobs</title>
 </head>
 
 <body>
@@ -28,7 +27,7 @@
     </div>
 </div>
 
-<!--<div th:fragment="searches">
+<div th:fragment="searches">
     <div th:if="${listItems} and ${listItems.size()}">
 
         <table th:each="items : ${listItems}" class="job-listing">
@@ -38,11 +37,8 @@
             </tr>
         </table>
     </div>
-</div>-->
+</div>
 
 </body>
 </html>
-
-
-
 
